@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(4, 235, 185);
+}
+h5 {
+  margin-top: 5px;
+}
+.page {
+  display: flex;
+  justify-content: center;
+}
+.card-page {
+  background-color: rgb(30, 36, 41);
+  color: rgb(255, 255, 255);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100rem;
+  max-width: 95%;
+  min-height: 95%;
+}
