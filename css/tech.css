@@ -14,6 +14,29 @@ body {
     background-position: 0% 50%;
   }
 }
+
+@keyframes move {
+  from {
+    top: 0;
+  }
+
+  to {
+    bottom: 0;
+  }
+}
+
+.moving-star {
+  color: #e2e19c;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+  position: absolute;
+  animation: move;
+  animation-duration: 26;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
 h5 {
   margin-top: 5px;
 }
